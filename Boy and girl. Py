@@ -1,0 +1,7 @@
+n = str(input())
+y = set(n)
+t = len(y)
+if t%2!=0:
+    print("IGNORE HIM!")
+else:
+    print("CHAT WITH HER!")
