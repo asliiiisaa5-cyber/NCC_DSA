@@ -1,0 +1,17 @@
+a1,a2,a3,a4 = map(int, input().split())
+s = input()
+x = 0
+for i in s:
+    if i == '1':
+        x += a1
+    elif i == '2':
+        x += a2
+    elif i == '3':
+        x += a3
+    else:
+        x += a4
+print(x)
+        
+    
+    
+    
